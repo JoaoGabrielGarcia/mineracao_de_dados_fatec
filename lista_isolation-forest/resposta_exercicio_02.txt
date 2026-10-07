@@ -1,0 +1,5 @@
+Exercicio 2 - Latencia de uma conexao de internet
+
+As medicoes de 230 ms e 280 ms foram inseridas como valores muito acima do padrao principal (24 a 67 ms), portanto sao candidatas a anomalia no conjunto. O rotulo indica que merecem investigacao, nao que estejam necessariamente erradas.
+
+Latencia alta nao representa sempre uma falha. Pode ocorrer por congestionamento temporario, distancia ate o servidor, uso intenso da rede, rota diferente ou uma tarefa pontual. Para diagnosticar, seria util observar horario, destino, perda de pacotes e repeticoes das medicoes.

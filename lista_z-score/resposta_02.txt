@@ -1,0 +1,3 @@
+O valor 85 tem Z-Score -1, portanto esta abaixo da media. O valor 100 tem Z-Score 0 e esta exatamente na media. O valor 120 tem Z-Score 2 e esta acima da media.
+
+O sinal negativo indica que o valor esta abaixo da media; o sinal positivo indica que esta acima dela; e o zero indica que o valor coincide com a media. O modulo do Z-Score expressa a distancia em desvios-padrao.

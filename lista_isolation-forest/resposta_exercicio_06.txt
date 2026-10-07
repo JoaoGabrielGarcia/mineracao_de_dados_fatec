@@ -1,0 +1,7 @@
+Exercicio 6 - Criacao de um problema completo
+
+Contexto escolhido: monitoramento do trafego de um site por hora. Cada observacao contem o numero de requisicoes e a quantidade de erros HTTP. A maior parte dos periodos fica perto de 42 a 64 requisicoes e 1 a 3 erros. Foram adicionados dois casos incomuns: 180 requisicoes com poucos erros e 52 requisicoes com 38 erros.
+
+O primeiro caso pode ser um pico legitimo causado por campanha ou evento, embora tambem possa merecer verificacao de capacidade. O segundo pode indicar indisponibilidade parcial, problema em uma dependencia ou ataque. Em vez de excluir qualquer um deles, convem consultar logs, alertas e contexto operacional.
+
+Os criterios para criar as observacoes incomuns foram sua distancia em relacao ao grupo principal e a combinacao entre as duas variaveis: um pico de volume e uma taxa de erro muito elevada. O modelo e configurado para procurar aproximadamente dois candidatos (contamination=2/18). Esse parametro e uma expectativa de proporcao, nao prova de que os dois registros sejam erros ou de que todas as anomalias reais serao encontradas.

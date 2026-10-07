@@ -1,0 +1,5 @@
+Exercicio 1 - Vendas de uma mercearia
+
+O modelo sinaliza o valor 400 como candidato a anomalia, pois ele esta muito distante do grupo de vendas entre 80 e 95. Isso e um alerta estatistico, nao uma conclusao sobre a validade do dado.
+
+O valor nao deve ser removido automaticamente. Uma venda alta pode corresponder a uma promocao, a uma encomenda maior ou a um evento especial; tambem pode ser erro de registro. Antes de remover ou corrigir, e preciso verificar a fonte e o contexto do dia. Se a venda for legitima, remove-la distorceria a analise.

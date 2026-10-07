@@ -1,0 +1,1 @@
+O valor 115 esta 15 unidades acima da media 100. Como o desvio-padrao e 5, essa distancia corresponde a 3 desvios-padrao. Portanto, o Z-Score e 3, e o valor esta tres desvios-padrao acima da media. Pela regra pratica estrita |Z| > 3, esse resultado exatamente igual a 3 nao ultrapassa o limiar.

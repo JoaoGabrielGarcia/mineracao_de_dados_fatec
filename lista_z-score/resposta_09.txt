@@ -1,0 +1,2 @@
+Pelo criterio do IQR, 30 esta acima do limite superior de 17,00 e merece ser sinalizado. Seu Z-Score e aproximadamente 2,54, portanto nao ultrapassa o criterio pratico |Z| > 3. As duas tecnicas avaliam o mesmo dado com criterios diferentes: o IQR usa a dispersao dos quartis, enquanto o Z-Score considera a media e o desvio-padrao. Por isso, podem chegar a sinalizacoes diferentes.
+

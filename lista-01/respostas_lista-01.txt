@@ -1,0 +1,34 @@
+LISTA 01 — RESPOSTAS E REGISTRO DOS DADOS
+
+Observação: os registros são fictícios, conforme orientação do enunciado. Os arquivos Excel e CSV na pasta complementam este registro.
+
+ATIVIDADE 2 — GESTÃO ACADÊMICA
+a) Curso com mais alunos: Análise de Dados (10 alunos).
+b) Disciplina com mais matrículas: Disciplina 1.1 (14 matrículas).
+c) Várias tabelas relacionadas reduzem repetição de dados, facilitam atualizações e ajudam a manter integridade. Por exemplo, o nome do curso fica cadastrado uma vez e é associado aos alunos e disciplinas por um identificador.
+
+ATIVIDADE 3 — CONHECENDO OS DADOS
+a) Maior faixa etária: 30–39 anos (25 clientes). Distribuição: 30–39: 25; 18–29: 22; 60+: 22; 40–49: 18; 50–59: 13.
+b) Estado com mais clientes: RS (14 clientes).
+c) Distribuição da renda mensal: Até R$ 5.000: 16 clientes; R$ 5.001–10.000: 34 clientes; R$ 10.001–15.000: 24 clientes; Acima de R$ 15.000: 26 clientes. Renda mínima R$ 2534.00, máxima R$ 19943.00, média R$ 10603.11.
+d) Há associação positiva no conjunto gerado: clientes com 11 ou mais compras têm gasto total médio de R$ 3218.48, enquanto clientes com até 5 compras têm média de R$ 704.66. Como a base é fictícia, isso descreve os dados construídos, não uma conclusão sobre clientes reais.
+
+ATIVIDADE 4 — DADOS VAZIOS E VALIDADE
+a) Foram inseridos 20 dados vazios: 5 em idade, 5 em renda, 5 em estado e 5 em quantidade de compras.
+b) Valores inválidos inseridos: idade 250; idade -5; estado XX; renda -3000; quantidade de compras -10. São 5 células inválidas.
+c) Dado vazio não contém informação preenchida; dado inválido contém um valor, mas ele viola uma regra do campo (por exemplo, idade negativa).
+Tratamento sugerido para a cópia: revisar valores inválidos e corrigir com fonte confiável; preencher ausências somente quando houver fonte adequada ou registrar explicitamente a ausência. A base original correta foi mantida na pasta/planilha.
+
+ATIVIDADE 5 — ACURÁCIA, DUPLICIDADE E CONSISTÊNCIA
+a) Sim. Um valor pode obedecer ao formato permitido e mesmo assim não corresponder à realidade. Exemplo: estado “SP” é uma UF válida, mas pode estar errado se a fonte de referência indicar “RJ”.
+b) Duplicidade é a repetição indevida do mesmo registro/entidade. Foram acrescentadas 5 cópias exatas de clientes; a planilha/CSV contém 105 linhas de dados e 5 registros excedentes duplicados.
+c) Dois dados são inconsistentes quando não combinam entre si segundo as regras ou o contexto. Exemplo: idade 20 com ano de nascimento 1946. Foram criadas 5 incompatibilidades entre idade e ano de nascimento.
+d) Validade avalia se o valor respeita regras e formato (ex.: UF com duas letras reconhecidas). Acurácia avalia se o valor corresponde à realidade/fonte confiável. Uma UF pode ser válida e estar incorreta para aquele cliente.
+Alterações de acurácia: estado de 5 clientes (IDs 10, 20, 30, 40 e 50) difere da Fonte de Referência. A tabela de referência inclui 16 clientes para comparação.
+
+ATIVIDADE 6 — ORANGE + MARIADB
+a) Foram preparados: 2 campos vazios, 3 valores inválidos e 1 inconsistência, além de 1 duplicidade de negócio.
+b) Campos afetados: clientes.estado (NULL e “XX”); vendas.quantidade (NULL); vendas.valor_unitario (-10); vendas.id_cliente (999, sem cliente correspondente); vendas.total_venda (não confere com quantidade × valor unitário).
+c) Foram introduzidas anomalias em 7 linhas (2 clientes, 4 vendas alteradas e 1 venda duplicada inserida). Contando também a linha original que forma o par duplicado, 8 registros participam da investigação: 2 de clientes e 6 linhas de vendas.
+d) Não. O banco organiza e armazena dados, mas só regras explícitas (restrições, validações e controles) impedem parte dos erros. Sem controles adequados, dados vazios, incorretos, duplicados ou inconsistentes podem ser gravados. O SQL mantém as tabelas problemáticas sem chaves estrangeiras/checagens para permitir a investigação no Orange; as tabelas corretas estão separadas.
+

@@ -1,0 +1,101 @@
+﻿ID_cliente;idade;cidade;estado;renda_mensal_R$;quantidade_compras;valor_total_compras_R$
+1;41;Belo Horizonte;MG;19556;7;1995
+2;27;Juazeiro do Norte;CE;18006;6;1584
+3;18;Juiz de Fora;MG;3405;9;1251
+4;29;Porto Alegre;RS;7978;6;696
+5;65;Fortaleza;CE;11377;2;318
+6;54;Joinville;SC;14043;10;1250
+7;28;Petrópolis;RJ;15011;6;888
+8;19;Niterói;RJ;3612;2;286
+9;32;Salvador;BA;12215;1;368
+10;25;Niterói;RJ;18237;8;2720
+11;32;Caxias do Sul;RS;4042;3;483
+12;69;Joinville;SC;8344;14;4886
+13;44;Anápolis;GO;6595;2;706
+14;46;Joinville;SC;17239;8;984
+15;54;Feira de Santana;BA;19910;1;215
+16;36;Juiz de Fora;MG;15456;15;4605
+17;39;Florianópolis;SC;4714;12;2772
+18;53;Santos;SP;8173;10;2510
+19;26;Porto Alegre;RS;11408;12;2172
+20;41;Londrina;PR;10467;5;1410
+21;67;Uberlândia;MG;4858;8;2320
+22;54;Uberlândia;MG;5828;14;5026
+23;38;Fortaleza;CE;18865;4;564
+24;40;Petrópolis;RJ;7808;7;1211
+25;55;Salvador;BA;14784;5;735
+26;64;Salvador;BA;10919;15;3585
+27;23;Recife;PE;15858;13;1976
+28;31;Caxias do Sul;RS;12963;13;2964
+29;28;Londrina;PR;7461;9;837
+30;37;Feira de Santana;BA;10606;7;728
+31;65;Recife;PE;5684;12;2796
+32;64;Juazeiro do Norte;CE;16873;13;2145
+33;48;Recife;PE;6979;12;1812
+34;19;Anápolis;GO;11282;2;210
+35;41;Rio de Janeiro;RJ;16598;12;3696
+36;28;Caxias do Sul;RS;4799;1;336
+37;64;São Paulo;SP;19818;3;585
+38;35;Londrina;PR;14618;4;840
+39;37;Niterói;RJ;13615;9;3321
+40;38;Recife;PE;15253;8;1472
+41;20;Feira de Santana;BA;7271;12;3612
+42;33;São Paulo;SP;8067;9;1548
+43;53;Caxias do Sul;RS;11667;10;3090
+44;70;Salvador;BA;17585;4;584
+45;34;Goiânia;GO;5850;4;812
+46;47;Londrina;PR;5445;4;588
+47;52;Juazeiro do Norte;CE;16335;11;2893
+48;38;Caxias do Sul;RS;17636;3;852
+49;24;Caxias do Sul;RS;4030;14;1400
+50;38;Curitiba;PR;12956;10;2800
+51;45;Salvador;BA;5729;12;4056
+52;70;Belo Horizonte;MG;17655;6;720
+53;62;Caruaru;PE;2575;11;3113
+54;65;Florianópolis;SC;9694;7;644
+55;41;Feira de Santana;BA;6940;12;3432
+56;59;Goiânia;GO;8477;13;3159
+57;58;São Paulo;SP;9215;8;1280
+58;29;Feira de Santana;BA;13800;12;2400
+59;30;Recife;PE;17855;10;2490
+60;59;Petrópolis;RJ;11761;11;3949
+61;68;Niterói;RJ;3290;1;299
+62;61;Santos;SP;2883;1;205
+63;47;Caxias do Sul;RS;5728;14;4620
+64;49;Fortaleza;CE;12094;4;944
+65;32;São Paulo;SP;12760;5;1115
+66;56;Goiânia;GO;9106;9;2754
+67;57;Curitiba;PR;18117;5;540
+68;70;Niterói;RJ;10356;6;996
+69;43;São Paulo;SP;18765;14;4984
+70;20;Londrina;PR;15131;8;1576
+71;22;São Paulo;SP;14588;4;1392
+72;52;Petrópolis;RJ;2549;12;1488
+73;36;Petrópolis;RJ;8165;3;798
+74;37;Caxias do Sul;RS;6925;4;1208
+75;61;Caxias do Sul;RS;6572;5;865
+76;63;Porto Alegre;RS;8683;3;390
+77;60;Caruaru;PE;13825;15;3390
+78;32;Salvador;BA;5440;14;4032
+79;47;Juazeiro do Norte;CE;6991;8;2728
+80;35;Fortaleza;CE;9337;15;2055
+81;33;Uberlândia;MG;18078;12;2388
+82;69;Juiz de Fora;MG;5938;11;2068
+83;34;Porto Alegre;RS;3247;4;1276
+84;18;Anápolis;GO;3464;6;1734
+85;70;Joinville;SC;4140;9;1512
+86;63;Niterói;RJ;2991;4;852
+87;24;Feira de Santana;BA;6972;1;334
+88;25;Florianópolis;SC;9476;6;900
+89;32;Caxias do Sul;RS;13089;4;532
+90;35;Curitiba;PR;12142;8;744
+91;30;Londrina;PR;2534;9;2700
+92;24;Goiânia;GO;9583;15;3750
+93;20;Caruaru;PE;10613;5;1735
+94;42;Joinville;SC;17024;2;364
+95;60;Petrópolis;RJ;7920;5;1830
+96;48;Londrina;PR;15393;1;92
+97;40;Curitiba;PR;8511;12;4296
+98;66;Fortaleza;CE;19943;6;780
+99;24;Londrina;PR;16568;15;4395
+100;46;Joinville;SC;5580;15;2295

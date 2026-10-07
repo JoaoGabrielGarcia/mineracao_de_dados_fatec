@@ -1,0 +1,3 @@
+O grupo B possui o maior IQR (35; no grupo A, o IQR e 2,25). Assim, os 50% centrais estao mais espalhados no grupo B.
+
+Um IQR maior nao significa que os dados estejam errados. Ele indica maior dispersao na metade central do conjunto. Para avaliar se ha erro, e necessario considerar a origem dos dados, o contexto e as regras do problema.

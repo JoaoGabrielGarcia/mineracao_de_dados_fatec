@@ -1,0 +1,1 @@
+No Grupo A, o Z-Score de 110 e 5; no Grupo B, e 0,5. Nos dois grupos, a distancia ate a media e de 10 unidades, mas essa distancia equivale a cinco desvios-padrao no Grupo A e a apenas meio desvio-padrao no Grupo B. Assim, o valor e muito mais incomum em relacao ao Grupo A. O Z-Score considera a distancia em relacao a variabilidade de cada grupo, nao apenas a distancia absoluta.

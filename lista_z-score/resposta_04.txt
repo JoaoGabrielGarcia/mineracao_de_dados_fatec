@@ -1,0 +1,1 @@
+A media das latencias e 110 ms e o desvio-padrao populacional e aproximadamente 26,52 ms. Para 180 ms, o Z-Score e aproximadamente 2,64. Como |Z| nao e maior que 3, o valor nao ultrapassa o criterio pratico indicado para sinalizacao. Ainda assim, investigar nao significa apagar o dado automaticamente.

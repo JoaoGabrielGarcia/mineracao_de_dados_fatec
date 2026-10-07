@@ -1,0 +1,1 @@
+Sim. O valor 80, destacado no boxplot, tambem foi identificado pela Regra do IQR. Para os tempos fornecidos, o limite superior e 30,5; como 80 e maior que esse limite, ele e candidato a outlier.

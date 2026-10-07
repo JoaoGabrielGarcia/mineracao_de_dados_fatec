@@ -1,0 +1,7 @@
+Exercicio 5 - Regra fixa versus Isolation Forest
+
+A regra usada no script sinaliza valores abaixo de 40 ou acima de 70 litros; assim, aponta 12 e 180. O Isolation Forest recebe contamination=2/11 para procurar aproximadamente duas observacoes incomuns. Com estes dados unidimensionais, espera-se que a comparacao destaque os consumos extremos, mas o resultado do modelo depende dos dados, da parametrizacao e da versao da biblioteca; o proprio script imprime se os conjuntos coincidem.
+
+A regra fixa e simples e facil de explicar, mas exige que alguem conheca e escolha limites adequados. Limites universais podem ignorar diferencas entre residencias ou mudancas de comportamento e podem precisar de ajustes. O Isolation Forest pode aprender quais pontos sao mais isolados sem um limite de consumo previamente definido, mas ainda requer escolhas como contamination e revisao humana dos alertas.
+
+Nao existe uma resposta universal entre definir o limite manualmente e usar o modelo. Se ha regra operacional ou conhecimento confiavel do dominio, o limite fixo pode ser mais transparente. Se ha varias caracteristicas ou nao se conhece um corte adequado, o modelo pode ajudar a priorizar investigacoes. Em ambos os casos, anomalia nao significa automaticamente erro.

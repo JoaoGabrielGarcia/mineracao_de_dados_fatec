@@ -1,0 +1,1 @@
+As temperaturas 21 e 29 estao igualmente distantes da media: seus Z-Scores sao -2 e 2, respectivamente. Ambas possuem o maior valor absoluto de Z (2), entao ha empate na leitura mais distante da media.

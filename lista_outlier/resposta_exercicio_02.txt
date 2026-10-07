@@ -1,0 +1,1 @@
+O valor 150 e candidato a outlier pela Regra do IQR. Com os quartis calculados pelo NumPy, Q1 = 13, Q3 = 15,75 e IQR = 2,75. O limite superior e 19,875; como 150 e maior que esse limite, ele fica fora dos limites esperados.

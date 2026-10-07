@@ -1,0 +1,1 @@
+O valor identificado foi 98. Ele ultrapassou o limite superior de 62,375, calculado pela Regra do IQR com multiplicador 1,5. Portanto, 98 e candidato a outlier. Essa classificacao indica um valor distante do restante dos dados; sozinha, nao confirma que o valor esteja errado.
